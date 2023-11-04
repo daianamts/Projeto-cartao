@@ -1,0 +1,23 @@
+@media screen and (max-width:760px){
+    main{
+        flex-direction: column;
+        margin-top: 15px;
+        margin-left: 120px;
+        margin-bottom: 15px;
+    }
+
+    #imagem img{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    main .Produto{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+
+    .Carinho-Produto{
+        margin-bottom: 15px;
+    }
+}
